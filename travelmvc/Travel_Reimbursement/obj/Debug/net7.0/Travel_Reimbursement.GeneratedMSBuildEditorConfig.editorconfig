@@ -1,0 +1,121 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Travel_Reimbursement
+build_property.RootNamespace = Travel_Reimbursement
+build_property.ProjectDir = c:\Users\aesiv\Desktop\travelmvc\Travel_Reimbursement\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = true
+build_property.MSBuildProjectDirectory = c:\Users\aesiv\Desktop\travelmvc\Travel_Reimbursement
+build_property._RazorSourceGeneratorDebug = 
+
+[c:/Users/aesiv/Desktop/travelmvc/Travel_Reimbursement/Views/Accounts/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudHNcTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/aesiv/Desktop/travelmvc/Travel_Reimbursement/Views/Accounts/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudHNcUmVnaXN0ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/aesiv/Desktop/travelmvc/Travel_Reimbursement/Views/Details/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV0YWlsc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/aesiv/Desktop/travelmvc/Travel_Reimbursement/Views/Details/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV0YWlsc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/aesiv/Desktop/travelmvc/Travel_Reimbursement/Views/Details/View.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV0YWlsc1xWaWV3LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/aesiv/Desktop/travelmvc/Travel_Reimbursement/Views/File/DeleteFile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmlsZVxEZWxldGVGaWxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/aesiv/Desktop/travelmvc/Travel_Reimbursement/Views/File/Fileupload.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmlsZVxGaWxldXBsb2FkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/aesiv/Desktop/travelmvc/Travel_Reimbursement/Views/File/IndexFile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmlsZVxJbmRleEZpbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/aesiv/Desktop/travelmvc/Travel_Reimbursement/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/aesiv/Desktop/travelmvc/Travel_Reimbursement/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/aesiv/Desktop/travelmvc/Travel_Reimbursement/Views/ManagerAccount/Approve.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlckFjY291bnRcQXBwcm92ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/aesiv/Desktop/travelmvc/Travel_Reimbursement/Views/ManagerAccount/Decline.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlckFjY291bnRcRGVjbGluZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/aesiv/Desktop/travelmvc/Travel_Reimbursement/Views/ManagerAccount/DeleteFile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlckFjY291bnRcRGVsZXRlRmlsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/aesiv/Desktop/travelmvc/Travel_Reimbursement/Views/ManagerAccount/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlckFjY291bnRcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/aesiv/Desktop/travelmvc/Travel_Reimbursement/Views/ManagerAccount/IndexFile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlckFjY291bnRcSW5kZXhGaWxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/aesiv/Desktop/travelmvc/Travel_Reimbursement/Views/ManagerAccount/LoginManager.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlckFjY291bnRcTG9naW5NYW5hZ2VyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/aesiv/Desktop/travelmvc/Travel_Reimbursement/Views/ManagerAccount/RegisterManager.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlckFjY291bnRcUmVnaXN0ZXJNYW5hZ2VyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/aesiv/Desktop/travelmvc/Travel_Reimbursement/Views/ManagerAccount/View.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlckFjY291bnRcVmlldy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/aesiv/Desktop/travelmvc/Travel_Reimbursement/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/aesiv/Desktop/travelmvc/Travel_Reimbursement/Views/Shared/NotFound.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXE5vdEZvdW5kLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/aesiv/Desktop/travelmvc/Travel_Reimbursement/Views/Shared/_LayoutAView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRBVmlldy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/aesiv/Desktop/travelmvc/Travel_Reimbursement/Views/Shared/_LayoutEView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRFVmlldy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/aesiv/Desktop/travelmvc/Travel_Reimbursement/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/aesiv/Desktop/travelmvc/Travel_Reimbursement/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/aesiv/Desktop/travelmvc/Travel_Reimbursement/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/aesiv/Desktop/travelmvc/Travel_Reimbursement/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-rfjwwb7g85

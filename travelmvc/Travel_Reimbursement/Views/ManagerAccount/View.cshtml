@@ -1,0 +1,432 @@
+@model Travel_Reimbursement.Models.UpdateTravelModel
+@{
+
+}
+<!--<h1>Update Employee Details</h1>-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+  <link rel="stylesheet" href="~/Travel_Reimbursement.styles.css" asp-append-version="true" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+ 
+ 
+
+<title>Document</title>
+</head>
+
+<body>
+     <header class="position-sticky top-0">
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            
+            <div class="container-fluid">
+                <a class="navbar-brand fw-bold text-blue" asp-area="" asp-controller="Home" asp-action="Index">Travel_Reimbursement</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                 <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        @* <li class="nav-item">
+                            <a class="nav-link fw-bold text-blue" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                        </li> *@
+                         <li class="nav-item">
+                            <a class="nav-link fw-bold text-blue" asp-area="" asp-controller="ManagerAccount" asp-action="Index">EmployeesDetails</a>
+                        </li>
+                         <li class="nav-item">
+                            <a class="nav-link fw-bold text-blue" asp-area="" asp-controller="ManagerAccount" asp-action="IndexFile">Proof</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="collapse navbar-collapse d-sm-inline-flex justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link fw-bold text-blue" asp-area="" asp-controller="ManagerAccount" asp-action="LogoutManager">Logout</a>
+                        </li>
+                         
+                    </ul>
+                </div>
+            </div>
+        </nav>
+     </header>
+
+ <form method="post" action="View" class="mt-5">
+    
+  <div class="container-fluid shadow-lg bg-light">
+    <div class="mt-4 col-md-12">
+      <div class="row">
+        <div class="col">
+          <!-- Name input -->
+          <div class="form-outline w-75">
+            <label class="form-label" for="">TRAVEL ID</label>
+            <input type="text" asp-for="TravelId"  class="form-control" readonly />
+           
+
+          </div>
+        </div>
+        <div class="col">
+          <!-- Email input -->
+          <div class="form-outline w-75">
+            <label class="form-label" for="">PASSPORT NUMBER</label>
+             <input type="text" class="form-control"   asp-for="Passportnumber" readonly >
+          
+
+          </div>
+        </div>
+        <div class="col">
+          <!-- Email input -->
+          <div class="form-outline w-75">
+            <label  for="" class="form-label">ISSUE-EXPIRY DATE</label>
+            <div class="input-group col-md-7">
+            <input type="text" asp-for="Issue" class="form-control"  readonly  />
+             <span class="col-md-1"> </span>
+               <input type="text" class="form-control" asp-for="ExpiryDate"  readonly   >
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <!-- Email input -->
+          <div class="form-outline w-75 ">
+            <label class="form-label" for="">PLACE OF ISSUE</label>
+            <input type="text" asp-for="Place" class="form-control"  readonly  />
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <br>
+    <!-- <hr /> -->
+
+    <div class="row">
+      <div class="col">
+        <!-- Name input -->
+        <div class="form-outline w-75">
+          <label class="form-label" for="">PAN</label>
+          <input type="text" asp-for="PAN" class="form-control" readonly   />
+        </div>
+      </div>
+      <div class="col">
+        <!-- Name input -->
+        <div class="form-outline w-75">
+          <label class="form-label" for="">DU/DEPARTMENT/PRACTICE</label>
+          <input type="text" asp-for="Department" class="form-control"  readonly   />
+        </div>
+      </div>
+      <div class="col">
+        <!-- Email input -->
+        <div class="form-outline w-75">
+          <label class="form-label" for="">PROJECT</label>
+          <input type="text" asp-for="Project" class="form-control"  readonly   />
+        </div>
+      </div>
+      <div class="col">
+        <!-- Email input -->
+        <div class="form-outline w-75">
+          <label class="form-label" for="">NAME OF THE CLIENT</label>
+          <input type="text" asp-for="Clientname" class="form-control"  readonly />
+        </div>
+      </div>
+    </div>
+    <div class="mt-4 col-md-12">
+      <div class="card">
+        <div class="card-header" style="background-color: rgb(123, 187, 243);">
+          PERDIEM RELATED DETAILS
+        </div>
+        <div class="card-body">
+          <form class="row g-3">
+            <div class="col-md-5">
+              <label for="inputCity" class="form-label">TRAVELLING DETAILS</label>
+              <div class="input-group col-md-7">
+                <input type="text" class="form-control" asp-for="Country"   placeholder="Country"  readonly >
+                <span class="col-md-1"> </span>
+                <input type="text" class="form-control" asp-for="Fromdate"  placeholder="From Date" readonly >
+                <span class="col-md-1"> </span>
+                <input type="text" class="form-control" asp-for="Todate" placeholder="To Date" readonly  >
+              </div>
+            </div>
+
+            <div class="col-md-2">
+              <label for="" class="form-label">NO OF DAYS</label>
+              <input type="text" class="form-control" asp-for="NoofDays" readonly  >
+            </div>
+            <div class="col-md-2">
+              <label for="" class="form-label">PER DIEM</label>
+                <select asp-for="Perdiem" class="form-select">
+                <option selected>Select...</option>
+                <option>Travel</option>
+                <option>Food</option>
+                <option>Fuel</option>
+                <option>Hotel</option>
+                 <option>None</option>
+              </select>
+            </div>
+            <div class="col-md-1">
+              <label for="" class="form-label">ELLIGIBLE</label>
+              <input type="text" class="form-control" asp-for="Eligible" readonly  >
+            </div>
+            
+            </form>
+        
+      </div>
+    </div>
+    <div class="mt-4 col-md-12">
+      <div class="card">
+        <div class="card-header">
+          <form class="row g-4">
+            <div class="col-md-2">
+              <label for="" class="form-label" action="/action_page.php">DATE</label>
+                <input asp-for="Date" type="date" class="form-control" readonly  >
+            </div>
+            
+             <!-- <div  class="col-md-1" action="/action_page.php">
+                 <label>Current Date</label>
+                 <input asp-for="CurrentDate" type="date" class="form-control">
+               </div>-->
+
+            <div class="col-md-2">
+              <label for="" class="form-label">EXPENSES</label>
+               <select asp-for="Particularofexpenses" class="form-select" >
+               <option selected>Select...</option>
+                <option>Rent</option>
+                <option>Food</option>
+                <option>Event</option>
+                <option>Hotel</option>
+                <option>None</option>
+              </select>
+            </div>
+
+            <div class="col-md-2">
+              <label for="" class="form-label">DETAIL OF EXPENSE</label>
+              <textarea class="form-control" type="text"   rows="1" asp-for="Detailsofexpense"  readonly  ></textarea>
+            </div>
+
+            <div class="col-md-2">
+              <label for="" class="form-label">CURRENCY</label>
+               <select asp-for="Currency" class="form-select" readonly >
+                <option selected>Select...</option>
+                 <option>$</option>
+                 <option>€</option>
+                 <option>£</option>
+                 <option>¥</option>
+                 <option>₹</option>
+              </select>
+            </div>
+
+            <div class="col-md-2">
+              <label for="" class="form-label">AMOUNT</label>
+                <input type="text" type="text" class="form-control" asp-for="Amount"  readonly   >
+            </div>
+
+          <!--  <div class="col-md-2">
+              <label for="inputZip" class="form-label">FILE UPLOAD</label>
+            </div>-->
+
+            <div class="col-md-2">
+              <label for="" class="form-label">MODE</label>
+              <select asp-for="Mode" class="form-select" readonly >
+                <option selected>Select...</option>
+                 <option>Bus</option>
+                  <option>Flight</option>
+                 <option>Car</option>
+                  <option>Bike</option>
+                  <option>Bicycle</option>
+                   <option>Auto</option>
+              </select>
+            </div>
+              @* <div class="col-md-2">
+              <label for="" class="form-label">EMPLOYEES EMAIL</label>
+                <input  class="form-control" type="text" asp-for="EmployeeEmail" id="validationCustom13" required  >
+            </div> *@
+
+            <!-- <div class="col-md-1">
+              <label for="inputZip" class="form-label">Action</label>
+            </div> -->
+          </form>
+        </div>
+      
+         <!-- <form class="row g-3">
+            <div class="col-md-1">
+              <div class="input-group col-md-7" action="/action_page.php">
+                <input asp-for="Date" type="date" class="form-control" id="validationCustom12" required>
+               
+              </div>
+            </div>
+
+            <div class="col-md-2">
+              <select asp-for="Particularofexpenses" class="form-select">
+                <option selected>Select...</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+              </select>
+            </div>
+            <div class="col-md-2">
+              <textarea class="form-control" rows="1" id="validationTextarea" asp-for="Detailsofexpense" name="text" required></textarea>
+            </div>
+            <div class="col-md-1">
+              <select asp-for="Currency" class="form-select">
+                <option selected>Select...</option>
+                 <option>$</option>
+                 <option>€</option>
+                 <option>£</option>
+                 <option>¥</option>
+                 <option>₹</option>
+              </select>
+            </div>
+            <div class="col-md-1">
+              <input type="text" class="form-control" asp-for="Amount" id="validationCustom13" required  >
+            </div>
+           
+            <div class="col-md-2">
+              <select asp-for="Mode" class="form-select">
+                <option selected>Select...</option>
+                 <option>Bus</option>
+                  <option>Flight</option>
+                 <option>Car</option>
+                  <option>Bike</option>
+                  <option>Bicycle</option>
+                   <option>Auto</option>
+              </select>
+            </div>
+          </form>-->
+
+          <!--<div class="mt-4 col-md-12">
+            <button type="button" class="btn btn-outline-primary btn-rounded "
+              style="border-radius: 15px;padding-left: 50px;padding-right: 50px;">ADD</button>
+          </div>-->
+
+          <div class="mt-4 col-md-12">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="input-group >
+                  <label for="inputZip" class="form-label">TOTAL PER DIEM AMOUNT</label>
+                  <span class="col-md-1"> </span>
+                  <textarea class="form-control" rows="2"  asp-for="Totalperdiem"  readonly  ></textarea>
+                </div>
+              </div>
+            
+              <div class="mt-4 col-md-6">
+                <div class="input-group >
+                <label for=" inputZip" class="form-label">TOTAL AMOUNT</label>
+                  <span class="col-md-1"> </span>
+                  <textarea class="form-control"  rows="2" asp-for="Totalamount" 
+                    style="margin-left: 20px;" readonly  ></textarea>
+                </div>
+              </div>
+
+                <div class="col-md-6">
+                <div class="input-group >
+                <label for=" inputZip" class="form-label">ADVANCE AMOUNT</label>
+                  <span class="col-md-1"> </span>
+            <!--      <textarea class="form-control" rows="2" asp-for="Advanceamount" name="text"></textarea>-->
+                   <textarea class="form-control"  rows="2" asp-for="Advanceamount"  readonly ></textarea>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="mt-4 col-md-12">
+            <div class="col-md-6">
+              <label for="inputZip" class="form-label">REMARKS</label>
+              <textarea class="form-control"  rows="3" asp-for="Remarks" name="text" readonly ></textarea>
+            </div>
+          </div>
+          
+            @* <div class="mt-4 col-md-12 text-center">
+          <button type="submit" class="btn btn-outline-primary btn-rounded " style="border-radius: 15px;padding-left: 50px;padding-right: 50px;margin: 10px;" asp-action="Delete" asp-controller="Details">Delete</button>
+            </div> *@
+
+      <!--    <div class="mt-4 col-md-12 text-center">
+            
+  <a class="nav-link fw-bold text-blue" asp-controller="Details" asp-action="Index">History</a>-->
+  <!--<button type="submit" class="btn btn-danger" asp-action="Delete" asp-controller="Details">Delete</button>-->
+        <!--    <button type="button" class="btn btn-outline-primary btn-rounded " asp-controller="Details" asp-action="View"
+              style="border-radius: 15px;padding-left: 50px;padding-right: 50px;margin: 10px;">DELETE</button>-->
+          <!--  <button type="button" class="btn btn-outline-primary btn-rounded "
+              style="border-radius: 15px;padding-left: 50px;padding-right: 50px;margin: 10px;">SAVE DRAFT</button>-->
+          <!--  <button type="submit" class="btn btn-outline-primary btn-rounded "
+              style="border-radius: 15px;padding-left: 50px;padding-right: 50px;margin: 10px; ">SEND REVIEW</button>
+          </div>-->
+          @* <div class="mt-4 col-md-12 text-center">
+              <label for="" class="form-label">Select</label>
+              <select asp-for="Perdiem" class="form-select">
+                <option selected>Select...</option>
+                <option>Approve</option>
+                <option>Decline</option>
+              </select>
+            </div> *@
+          <div class="mt-4 col-md-12 text-center">
+           <button type="submit" class="btn btn-success btn-sm" asp-action="Approve" asp-controller="ManagerAccount"
+           style="border-radius: 15px;padding-left: 50px;padding-right: 50px;margin: 10px;">Approve</button>
+          <button type="submit"  class="btn btn-danger btn-sm" asp-action="Decline" asp-controller="ManagerAccount"
+          style="border-radius: 15px;padding-left: 50px;padding-right: 50px;margin: 10px;">Decline</button> 
+          </div>
+
+
+      </div>
+    </div>
+    </div>
+
+  </form>
+   <footer class="border-top text-white">
+        <div class="container mt-2">
+         <div class="row">
+            <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4">
+                <h4>Travel Reimbursement</h4>
+                <pre>Security</pre>
+                <pre>Protection</pre>
+                <pre>Saved</pre>
+             
+            </div>
+            <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4">
+                <h4>Contact Us</h4>
+                <div class="mt-3 mb-2">
+                    <span><i class="fa-brands fa-instagram fs-5"></i></span>
+                    <span class="fs-6 mx-1"><a href="https://instagram.com/aspire_systems?igshid=YmMyMTA2M2Y= "> Instagram</a></span>
+                </div>
+                 <div class="mb-2">
+                    <span><i class="fa-brands fa-youtube fs-5"></i></span>
+                    <span class="fs-6 mx-1"><a href="https://youtube.com/Aspiresys">YouTube</a></span>
+                </div>
+                 <div class="mb-2"> 
+                    <span><i class="fa-brands fa-facebook fs-5"></i></span>
+                    <span class="fs-6 mx-1"><a href="https://www.facebook.com/AspireSystems?mibextid=ZbWKwL">Facebook</a></span>
+                </div> 
+                 <div class="mb-2">
+                    <span><i class="fa-regular fa-linkedin fs-5"></i></span>
+                    <span class="fs-6 mx-1"><a href="https://www.linkedin.com/company/aspire-systems/">LinkedIn</a></span>
+                </div>
+                @* <div class="mb-2">
+                    <span><i class="fa-regular fa-envelope fs-5"></i></span>
+                    <span class="fs-6 mx-1"><a href="mailto:aspiresys@gmail.com"> Mail</a></span>
+                </div> *@
+            </div>
+            <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4">
+                <h4>Address</h4>
+                <pre>Aspire Systems</pre>
+                <pre>Chennai, Siruseri, TamilNadu, India</pre>    
+            </div>
+         </div>
+       <!--  <div>
+            <h3  class="text-center">Powered By Gayathri</h3>
+         </div>-->
+          </div>
+    </footer> 
+</body>
+</html>
+
